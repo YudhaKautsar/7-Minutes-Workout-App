@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">7MinutesWorkout</string>
+    <string name="start">START</string>
+    <string name="start_image">Start Image</string>
+    <string name="get_ready_for">GET READY FOR</string>
+    <string name="rest_notif_text">Here now we will start the exercise.</string>
+    <string name="exercise_notif_text">30 Seconds are over, lets go to the rest view.</string>
+    <string name="exercise_title">Exercise Name</string>
+    <string name="exercise_image_cd">Exercise Image</string>
+    <string name="congrats">Congratulations! You have completed the 7 minutes workout.</string>
+    <string name="upcoming_exercise">UPCOMING EXERCISE:</string>
+    <string name="error_not_support_message">The Language specified is not supported!</string>
+    <string name="error_initialization_message">Initialization Failed!</string>
+    <string name="end">END</string>
+    <string name="finish_image_cd">Finish Image</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="finish_text">You have completed the workout!</string>
+    <string name="finish">FINISH</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="back_confirm_subtitle">This will stop your workout. You\'ve come this far, are you sure you want to quit?</string>
+    <string name="back_confirm_title">Are you sure?</string>
+    <string name="bmi">BMI</string>
+    <string name="calculator">Calculator</string>
+    <string name="calculate_bmi">CALCULATE BMI</string>
+    <string name="weight_in_kg">WEIGHT (in kg)</string>
+    <string name="height_in_cm">HEIGHT (in cm)</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="your_bmi">YOUR BMI</string>
+    <string name="bmi_toast">Please enter valid values</string>
+    <string name="metric_units">METRIC UNITS</string>
+    <string name="us_units">US UNITS</string>
+    <string-array name="bmi_label">
+        <item>Very severely underweight</item>
+        <item>Severely underweight</item>
+        <item>Underweight</item>
+        <item>Normal</item>
+        <item>Overweight</item>
+        <item>Obese Class | (Moderately obese)</item>
+        <item>Obese Class || (Severely obese)</item>
+        <item>Obese Class ||| (Very Severely obese)</item>
+    </string-array>
+    <string-array name="bmi_desc">
+        <item>Oops! You really need to take better care of yourself! Eat more</item>
+        <item>Congratulations! You are in a good shape</item>
+        <item>Oops! You really need to take  care of yourself! Workout maybe!</item>
+        <item>OMG! You are in a very dangerous condition! Act now!</item>
+    </string-array>
+</resources>

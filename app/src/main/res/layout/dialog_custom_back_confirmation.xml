@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="@dimen/dimen_16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/back_confirm_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:layout_marginEnd="@dimen/dimen_10dp"
+        android:gravity="center"
+        android:text="@string/back_confirm_subtitle"
+        android:textColor="@color/blackLight"
+        android:textSize="@dimen/text_16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:layout_marginEnd="@dimen/dimen_10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:text="@string/yes"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16sp"
+            style="?android:attr/buttonBarButtonStyle" />
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="@dimen/dimen_0dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:layout_marginStart="@dimen/dimen_10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorAccent"
+            android:gravity="center"
+            android:text="@string/no"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_16sp"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
